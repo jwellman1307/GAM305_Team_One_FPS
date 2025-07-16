@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.6",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "GAM305_Team_1_FPS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
