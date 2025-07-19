@@ -23,7 +23,7 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
