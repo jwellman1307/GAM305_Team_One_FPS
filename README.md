@@ -43,7 +43,7 @@ Module Two Project Log:
 
 //End of Moddule Two Project Log//
 
-Module Three Project Log:
+Module Three Project Log Q&A:
 
 -How will you test objects, levels, and games during the development cycle? Develop a schedule and include:
   -Playtest: Alpha Release
@@ -68,7 +68,7 @@ Module Three Project Log:
 Module Four Project Log:
 
 -What parts of the testing process did the team perceive to go well?
-  -The team perceived the testing of the core gameplay mechanics to go well. Since several team members had prior experience with player character and enemy AI design, including behavior trees, this allowed us to build and test these systems with greater efficiency. We were able to run early playtests to validate movement, combat interactions, and basic AI behavior, leading to fewer major issues during the later stages of development. Familiarity with these systems meant bugs were quickly identified and resolved, allowing for a smoother gameplay experience early in the Alpha phase.
+  -The team perceived the testing of the core gameplay mechanics to go well. Since several team members had prior experience with player character and enemy AI design, including behavior trees, this allowed us to build and test these systems with greater efficiency. We were able to run early playtests to validate movement, combat interactions, and basic AI behavior, leading to fewer major issues during the later stages of development. Familiarity with these systems meant bugs were quickly identified and resolved, allowing for a smoother gameplay experience early in the Alpha phase. Please view the QA Testing Plan v1.1 (Alpha Test Plan Sheet) for testing results. 
 
 -How were bugs identified and corrected?
   -Bugs were primarily identified through iterative testing within each developer's individual branch before merging into the main build. This allowed team members to isolate and catch issues early during development. If a conflict or bug arose during the merge process, it was communicated promptly via Discord, where the team collaborated to troubleshoot and resolve the issue. This approach encouraged real-time problem solving and helped prevent major bugs from making it into the main branch.
@@ -85,5 +85,19 @@ Module Four Project Log:
 -How did the team approach to the initial analysis of the game design document contribute to the decision to use these tools and techniques?
   -During the initial analysis of the game development, the team identified key areas that would require consistent communication, organized task tracking, and regular collaboration—especially around gameplay systems, level design, and AI behavior. This led to the decision to use Discord for real-time discussions and quick updates, Trello for managing tasks and monitoring development progress, and weekly meetings to review milestones and clarify any uncertainties in the GDD. The structured breakdown of the GDD helped the team assign roles and responsibilities effectively, making these tools essential in keeping the project aligned with the original design vision.
 
-Module Four Team Log:
+Module Four Team Journal:
 
+July Wellman - Team Lead
+  - The team got together over the weekend to do testing on the game. The team lead worked on the QA test plan and compliling all the results of the tests from the team into the Alpha test plan that was performed in our meeting. The lead also worked on creating the module four readme and the team journals from everyones reports. 
+
+Sarah Elizaldi - Artist
+  - The artist focused on polishing the final polish of the main assets, rigging and animations. All enemies are going the finishing stages of rigging and animation. The artist also finished the the design of the main character and rig. Main character will still need animatiions. The artist also completed the base texture for the level design. 
+
+Ryan Trinh - Programmer
+  - The programmer worked on the sounds for the gun animations including shooting and reloading. Sounds were also added in for the pick ups when the player walks through the pick up item. Created and programmed the speed, ammo, and health pick up using placeholders. Created the initial elevator and the landing sound for the elevators that are going up and down. 
+
+Travis Woolston - UI/UX
+  - The UI/UX developer worked on creating the Player HUB, enemy behavior and animation integration. The player HUD consisted of the reticle, ammo counter, and health bar. The enemy behavior included the parasite, spider, and spawner enemy. The animation integration includes the rotating gun magazine, parasite, spider, and spawner beahavioral AI.
+
+Ethan Lozano - Level Designer
+  - The level designer worked on the level layour concept and the level blockout. The level designer finsihed the calls, ciling, and tubes. The tubes will be used as tunnels for intestines. The level designer also worked on the lighing throughout the level to add ambiance to the level theme.
