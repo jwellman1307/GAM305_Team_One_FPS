@@ -64,3 +64,26 @@ Module Three Project Log:
 
 -How will the bugs and their changes be tracked over time?
   -Ongoing bugs will be discuss by the team on a weekly basis. Bugs will be addressed by the severity of the bug. 
+
+Module Four Project Log:
+
+-What parts of the testing process did the team perceive to go well?
+  -The team perceived the testing of the core gameplay mechanics to go well. Since several team members had prior experience with player character and enemy AI design, including behavior trees, this allowed us to build and test these systems with greater efficiency. We were able to run early playtests to validate movement, combat interactions, and basic AI behavior, leading to fewer major issues during the later stages of development. Familiarity with these systems meant bugs were quickly identified and resolved, allowing for a smoother gameplay experience early in the Alpha phase.
+
+-How were bugs identified and corrected?
+  -Bugs were primarily identified through iterative testing within each developer's individual branch before merging into the main build. This allowed team members to isolate and catch issues early during development. If a conflict or bug arose during the merge process, it was communicated promptly via Discord, where the team collaborated to troubleshoot and resolve the issue. This approach encouraged real-time problem solving and helped prevent major bugs from making it into the main branch.
+
+-In terms of the QA and testing process, what would you do differently to improve the process?
+  -The team would have allocated more time specifically for playtesting the level. One major issue encountered was a problem loading the in-game level map, which resulted from a merge conflict. This unexpected setback delayed testing and required the team to hop on a group call to troubleshoot and resolve the issue collaboratively. By planning more time for integration testing and level playthroughs earlier in the development timeline, the team could have caught these issues sooner and ensured smoother progression into the Alpha build.
+
+-What tools (chosen in Module Two) did you find successful in the development of your Alpha Project? Why?
+  - The tools chosen in Module Two ,discord, Trello, and weekly team meetings—were, highly effective during the Alpha Project. Discord played a crucial role in maintaining open and immediate communication, allowing the team to quickly report bugs, coordinate tasks, and share updates in real time. Weekly meetings provided structured checkpoints to assess progress and align on priorities. Additionally, Trello helped organize tasks, track development milestones, and assign responsibilities, which kept the team focused and on schedule.
+
+-Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+  -So far, all the tools introduced to the team have provided value in one way or another. Trello, Discord, and weekly meetings worked well together as a balanced system for organization, task management, and open communication. Each tool served a specific purpose; Trello for tracking progress, Discord for real-time collaboration, and weekly meetings for structured planning and accountability. 
+
+-How did the team approach to the initial analysis of the game design document contribute to the decision to use these tools and techniques?
+  -During the initial analysis of the game development, the team identified key areas that would require consistent communication, organized task tracking, and regular collaboration—especially around gameplay systems, level design, and AI behavior. This led to the decision to use Discord for real-time discussions and quick updates, Trello for managing tasks and monitoring development progress, and weekly meetings to review milestones and clarify any uncertainties in the GDD. The structured breakdown of the GDD helped the team assign roles and responsibilities effectively, making these tools essential in keeping the project aligned with the original design vision.
+
+Module Four Team Log:
+
