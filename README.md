@@ -41,15 +41,15 @@ Module Two Project Log:
 - Choose a method for assigning and reporting on specific task items.
   - Trello Project Board
 
-//End of Moddule Two Project Log//
+//End of Module Two Project Log//
 
 Module Three Project Log Q&A:
 
 - How will you test objects, levels, and games during the development cycle? Develop a schedule and include:
   - Playtest: Alpha Release
-    - The alpha release will contain the basic level design of the game. Testing will include player, enemy, and weapon functionality along with basic concepts of menu designs along with preliminary win/lose conditions. Alpha Release will also introduce the frist two enemies into the game, so testing will be done on the enemy AI as well. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Alpha release. 
+    - The alpha release will contain the basic level design of the game. Testing will include player, enemy, and weapon functionality along with basic concepts of menu designs along with preliminary win/lose conditions. Alpha Release will also introduce the first two enemies into the game, so testing will be done on the enemy AI as well. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Alpha release. 
   - Demo: Beta
-    -T he beta release will contain all the content of the alpha release in addition to an additional room, addiitonal enemy AI, full textured environment with sound, and a minimap system. The additional enemy AI will spawn additional viruses. The QA testing plan will also include the testing of functionality on the spawner viruses along with a textured environment with sound. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Beta Release.
+    -T the beta release will contain all the content of the alpha release in addition to an additional room, additional enemy AI, full textured environment with sound, and a minimap system. The additional enemy AI will spawn additional viruses. The QA testing plan will also include the testing of functionality on the spawner viruses along with a textured environment with sound. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Beta Release.
   - Code Release: Final Release
     - The final release will be the polished version of the game. All concepts will be functions should be bug free and a full regression testing will be down. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Final release. 
 
@@ -60,12 +60,12 @@ Module Three Project Log Q&A:
   - The test plan will be updated each week during the weekly team meeting. This will allow the team to align to test plans and move forward. Tests are set to be conducted on the weekends allowing the design team to still make improvements through the week. 
 
 - How will bugs be reported?
-  - Bugs will be noted on the QA test plan. Any ongoing bugs that cannot be resolved immediately will be added to the trello board as an ongoing bug.
+  - Bugs will be noted on the QA test plan. Any ongoing bugs that cannot be resolved immediately will be added to the Trello board as an ongoing bug.
 
 - How will the bugs and their changes be tracked over time?
   - Ongoing bugs will be discuss by the team on a weekly basis. Bugs will be addressed by the severity of the bug.
 
-//End of Moddule Three Project Log//
+//End of Module Three Project Log//
 
 Module Four Project Log:
 
@@ -90,16 +90,16 @@ Module Four Project Log:
 Module Four Team Journal:
 
 July Wellman - Team Lead
-  - The team got together over the weekend to do testing on the game. The team lead worked on the QA test plan and compliling all the results of the tests from the team into the Alpha test plan that was performed in our meeting. The lead also worked on creating the module four readme and the team journals from everyones reports. 
+  - The team got together over the weekend to do testing on the game. The team lead worked on the QA test plan and compiling all the results of the tests from the team into the Alpha test plan that was performed in our meeting. The lead also worked on creating the module four readme and the team journals from everyone’s reports. 
 
 Sarah Elizaldi - Artist
-  - The artist focused on polishing the final polish of the main assets, rigging and animations. All enemies are going the finishing stages of rigging and animation. The artist also finished the the design of the main character and rig. Main character will still need animatiions. The artist also completed the base texture for the level design. 
+  - The artist focused on polishing the final polish of the main assets, rigging and animations. All enemies are going the finishing stages of rigging and animation. The artist also finished the design of the main character and rig. Main character will still need animations. The artist also completed the base texture for the level design. 
 
 Ryan Trinh - Programmer
-  - The programmer worked on the sounds for the gun animations including shooting and reloading. Sounds were also added in for the pick ups when the player walks through the pick up item. Created and programmed the speed, ammo, and health pick up using placeholders. Created the initial elevator and the landing sound for the elevators that are going up and down. 
+  - The programmer worked on the sounds for the gun animations including shooting and reloading. Sounds were also added in for the pickups when the player walks through the pickup item. Created and programmed the speed, ammo, and health pick up using placeholders. Created the initial elevator and the landing sound for the elevators that are going up and down. The programmer formatted the build environment and packed the final Alpha build. 
 
 Travis Woolston - UI/UX
-  - The UI/UX developer worked on creating the Player HUB, enemy behavior and animation integration. The player HUD consisted of the reticle, ammo counter, and health bar. The enemy behavior included the parasite, spider, and spawner enemy. The animation integration includes the rotating gun magazine, parasite, spider, and spawner beahavioral AI.
+  - The UI/UX developer worked on creating the Player HUB, enemy behavior and animation integration. The player HUD consisted of the reticle, ammo counter, and health bar. The enemy behavior included the parasite, spider, and spawner enemy. The animation integration includes the rotating gun magazine, parasite, spider, and spawner behavioral AI.
 
 Ethan Lozano - Level Designer
-  - The level designer worked on the level layour concept and the level blockout. The level designer finsihed the calls, ciling, and tubes. The tubes will be used as tunnels for intestines. The level designer also worked on the lighing throughout the level to add ambiance to the level theme.
+  - The level designer worked on the level layout concept and the level blockout. The level designer finished the calls, ceiling, and tubes. The tubes will be used as tunnels for intestines. The level designer also worked on the lighting throughout the level to add ambiance to the level theme.
