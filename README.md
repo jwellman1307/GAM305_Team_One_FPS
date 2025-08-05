@@ -12,10 +12,10 @@ Module Two Project Log:
 - Choose a scenario and select the four additional elements you will include.
   - Scenario: FPS Virus Hunting Simulator
     - Four additional elements:
-      - Elevators
-      - Mini-map
-      - pick ups
-      - virus reproduction
+      - Elevators (Up and down, side to side)
+      - Mini-map (Directional Indicator)
+      - Pick ups (Health, Ammo, Speed Boost)
+      - Virus reproduction (Spawner Enemy)
 
 - Brainstorm on content based on the preferred scenario in the design document.
   - Arena shooter featuring player seeking and destroying enemies on the board. 
@@ -49,7 +49,7 @@ Module Three Project Log Q&A:
   - Playtest: Alpha Release
     - The alpha release will contain the basic level design of the game. Testing will include player, enemy, and weapon functionality along with basic concepts of menu designs along with preliminary win/lose conditions. Alpha Release will also introduce the first two enemies into the game, so testing will be done on the enemy AI as well. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Alpha release. 
   - Demo: Beta
-    -T the beta release will contain all the content of the alpha release in addition to an additional room, additional enemy AI, full textured environment with sound, and a minimap system. The additional enemy AI will spawn additional viruses. The QA testing plan will also include the testing of functionality on the spawner viruses along with a textured environment with sound. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Beta Release.
+    - The beta release will contain all the content of the alpha release in addition to an additional room, additional enemy AI, full textured environment with sound, and a minimap system. The additional enemy AI will spawn additional viruses. The QA testing plan will also include the testing of functionality on the spawner viruses along with a textured environment with sound. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Beta Release.
   - Code Release: Final Release
     - The final release will be the polished version of the game. All concepts will be functions should be bug free and a full regression testing will be down. See QA schedule for full log of deliverables and QA test plan for individual testing components prior to Final release. 
 
@@ -103,3 +103,39 @@ Travis Woolston - UI/UX
 
 Ethan Lozano - Level Designer
   - The level designer worked on the level layout concept and the level blockout. The level designer finished the calls, ceiling, and tubes. The tubes will be used as tunnels for intestines. The level designer also worked on the lighting throughout the level to add ambiance to the level theme.
+
+Module Five Project Log:
+- What parts of the plan did the team perceive to go well in relation to the last stage evaluation?
+  - The team expected the asset creation, textures, and functionality of the level design to go well since they did not run into any major bugs in the Alpha build. Many of the bugs in the Alpha build was retested to make sure everything functioned correctly. The team also anticipated the additional elements like the elevators, pickups, and virus reproduction to go well. Assets were created and added to the Beta build stage for the pickups and elevators with no bugs. All of the functions performed as intended during the Beta test. See QA Testing Plan v1.2(Beta Testing Plan Sheet for functional testing).
+
+- What parts of the plan did the team perceive to go wrong in relation to the last stage evaluation?
+  - The team perceive asset animation to be slow since they experienced this problem in Alpha stage. The team is still getting pointer errors in git bash when committing the block out map, but the team has been able to resolve when merging. The team also anticipated merge conflicts among the group.
+
+- How were the previous evaluations integrated into this latest stage?
+  - In the Alpha stage, the team experienced many merge conflicts. The evaluations from the last stage helped the team refined how they approached the Beta build. For example, some of the developers had a backup map to load in if the block out map was not functioning to recover a working state. The team stayed vigilant on reporting merge conflicts to Discord and resolving the issue as it occurred instead of letting the bugs build over time. Other previous evaluations integrated into the Beta Stage was the QA test plan for game functionality. See the Beta Test Plan Sheet for all functions that were testing prior to Beta release.
+
+- What would you do differently to improve the collaboration or development process?
+  - To improve the collaboration or development process, the team could arrange better times to collaborate. Due to the team working remotely, the team often struggled to find the time to meet every week, letting everyone be in the same room. On top of school, work, and home lives, it has been fairly difficult to arrange a concrete time where everyone can be available. The team has done well in reporting to Discord updates and problems, but that is a lot of material if you are not actively on discord to keep up with development. 
+
+- Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+  - The team found Trello to not be helpful in the process. There were too many outlets to report tasks to, and the team ended up just using discord for all of their reporting. The other side of this is that the information is not organized in Discord, so it was difficult to gauge progress if you were not actively in the chat.
+
+- Identify the completed stage of development of the intended beta and address the project schedule to meet Final Release development deadline.
+  - The completed beta stage includes a playable game where the player starts in a room and must follow the path to reach a platform to win the game. The level design consists of five textured rooms with three enemy types including spiders, worms, and spawners. The objective of the game is to defeat the spawners in each room to open up the next area until you get to the end. The theme of the game is a virus hunting simulator where the player is tasks with dealing with viruses inside a body. The level designs include two elevators that go up and down, a radar enemy detection map, and spawners that will spawn additional enemies. The level also includes various pickups consisting of health, ammo, and speed boosts. The final release will contain the last deliverable, two elevators moving from side to side. Full regression testing will also be applied to the project before release on 8/10/25. The team has completed all of the deliverables except the elevators moving side to side. The week of Final release will be focused additional level design and working out any bugs that may exist in the game, which up to this point has been minimal since the team has been debugging their own branches before push.
+
+Module Five Team Journal:
+July Wellman - Team Lead
+  - The team lead tested the Final Beta build branch and filled out the Beta Test Plan. Functionality and QA testing were performed prior to the release of Beta build to ensure all objects functioned as intended. The team lead also worked compiling all the data from the week to create the Module Five Project log and team journals.
+
+Sarah Elizaldi - Artist
+  - The artist focused on level layouts, building environmental assets, and preparing them for engine usage. This included establishing collisions, lighting, materials and replacement of place holder assets. Level layout work includes laying the foundation for arena locations, making the assets make sense where placed and designing a flow in each room that allows for an unrestricted environment for the player.
+
+Ryan Trinh - Programmer
+  - The programmer worked on enhancing the game’s audio and interactivity. Additions included: adding dynamic footstep sounds for the player and integrating them with the speed pickup so the playback rate adjusts based on movement speed, updating the jump landing sound, background music to both the game and main menu, and implemented button hover and click sounds to improve UI feedback. Additionally, the programmer also created a wall that disappears when the spawner dies, adding a responsive mechanic to the level that prevents players from skipping past the intended encounter.
+
+Travis Woolston - UI/UX
+  - The UI/UX improved AI navigational and mechanical logic by syncing spawn time with spawner animation, and updated spider enemy behavior to be more interactive. Additions include adding enemy health bars to the parasite and spawner blueprints, as well as added an explosive fracture effect to Spawners that triggers on death. The UI/UX designer also created a radar (mini map) that uses a 2D render target to display enemy locations to the player along with improved projectile logic with a slight aim assist to make projectiles snappier while maintaining physics simulation. The UI/UX also packaged the final beta build. 
+
+Ethan Lozano - Level Designer
+  - The level designer worked on creating assets alongside the artist for the arenas, and the intestines. The designer gave insight to the artist on what needed to be created whilst making his own assets, to which the artist took over and refined. The level designer and the artists populated the first and second arena, as well as having the intestines be more detailed and having existing assets refined for the level theme. Most of the assets needed for the final build are ready, and at this point require refinement and placement, the rest of the level however is put together thanks to the combined efforts of the entire team, with proper asset placement and refinement.
+
