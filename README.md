@@ -41,8 +41,6 @@ Module Two Project Log:
 - Choose a method for assigning and reporting on specific task items.
   - Trello Project Board
 
-//End of Module Two Project Log//
-
 Module Three Project Log Q&A:
 
 - How will you test objects, levels, and games during the development cycle? Develop a schedule and include:
@@ -64,8 +62,6 @@ Module Three Project Log Q&A:
 
 - How will the bugs and their changes be tracked over time?
   - Ongoing bugs will be discuss by the team on a weekly basis. Bugs will be addressed by the severity of the bug.
-
-//End of Module Three Project Log//
 
 Module Four Project Log:
 
@@ -124,6 +120,7 @@ Module Five Project Log:
   - The completed beta stage includes a playable game where the player starts in a room and must follow the path to reach a platform to win the game. The level design consists of five textured rooms with three enemy types including spiders, worms, and spawners. The objective of the game is to defeat the spawners in each room to open up the next area until you get to the end. The theme of the game is a virus hunting simulator where the player is tasks with dealing with viruses inside a body. The level designs include two elevators that go up and down, a radar enemy detection map, and spawners that will spawn additional enemies. The level also includes various pickups consisting of health, ammo, and speed boosts. The final release will contain the last deliverable, two elevators moving from side to side. Full regression testing will also be applied to the project before release on 8/10/25. The team has completed all of the deliverables except the elevators moving side to side. The week of Final release will be focused additional level design and working out any bugs that may exist in the game, which up to this point has been minimal since the team has been debugging their own branches before push.
 
 Module Five Team Journal:
+
 July Wellman - Team Lead
   - The team lead tested the Final Beta build branch and filled out the Beta Test Plan. Functionality and QA testing were performed prior to the release of Beta build to ensure all objects functioned as intended. The team lead also worked compiling all the data from the week to create the Module Five Project log and team journals.
 
@@ -138,4 +135,38 @@ Travis Woolston - UI/UX
 
 Ethan Lozano - Level Designer
   - The level designer worked on creating assets alongside the artist for the arenas, and the intestines. The designer gave insight to the artist on what needed to be created whilst making his own assets, to which the artist took over and refined. The level designer and the artists populated the first and second arena, as well as having the intestines be more detailed and having existing assets refined for the level theme. Most of the assets needed for the final build are ready, and at this point require refinement and placement, the rest of the level however is put together thanks to the combined efforts of the entire team, with proper asset placement and refinement.
+
+Module Six Project Log:
+
+- What parts of the plan did the team perceive to go well in relation to the last stage evaluation?
+  - The team felt that the overall game functionality went well, as the final stages primarily focused on creating additional assets and refining menu buttons. Most core functions had already been implemented in the beta release, so this stage involved re-testing functionality and ensuring QA standards were met for all five fully textured rooms. A full regression test was completed for the final release. (See QA Testing Plan - Final Test Plan sheet for functional testing and results.)
+
+- What parts of the plan did the team perceive to go wrong in relation to the last stage evaluation?
+  - The team continued to experience GitHub merge conflicts, especially when pushing map updates. However, these issues were addressed promptly, and the team remained vigilant in bug reporting to prevent problems from piling up. This proactive approach allowed development to progress smoothly despite the setbacks.
+
+- How were the previous evaluations integrated into this latest stage?
+  - One key issue from the beta release was the main menu settings button not functioning correctly. This was resolved by the UI/UX programmer, who implemented the necessary functionality in this stage. Additionally, the final deliverable, adding elevators that moved side-to-side, was completed for the final release, ensuring all project requirements were met.
+    
+- What would you do differently to improve the collaboration or development process?
+  - Scheduling and coordinating meeting times proved to be the team’s biggest challenge. While availability varied, the team worked well together when gathering resources and finalizing project components. Discord served as the primary communication tool, which was particularly helpful for members who could not engage throughout the day.
+ 
+- Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+  - The Trello board was initially helpful for aligning on scope and tracking tasks, but over time it fell into inactivity. The team did not observe a drop in efficiency without it, so the decision was made to discontinue its use and focus communication exclusively through Discord.
+    
+Module Six Team Journal:
+
+July Wellman - Team Lead
+  - The team lead worked on testing the final release of the game compiling and drawing up the results of the final test plan in the QA testing plan document. The team lead also updated the GitHub Readme with the module six project log and team journals.
+    
+Sarah Elizaldi - Artist
+  - The artist focused on finishing asset creation with animations and creating animation for the main character. Also focused on lighting set ups that work with lumen when baked down.
+    
+Ryan Trinh - Programmer
+  - The programmer added a magazine reload sound, created credits and a “How to Play” guide in the main menu, and fixed a bug with the horizontal elevator. I also designed an overdrive pickup, gave enemies unique death sounds, and added ambient audio to the lung and heart areas in the level for more immersive gameplay.
+    
+Travis Woolston - UI/UX
+  - The UI/UX developer integrated the player character animations, reload and idle. Integrated new level design with game logic, rigged spawners to doors, added audio volumes for reverb. The developer also continued to work on the radar, the intention is that spawner dots will be bigger (though there are still inconsistencies to look into.) Other minor QoL improvements documented in commits. The developer also packaged the final release of the game. 
+    
+Ethan Lozano - Level Designer
+  - The level designer worked with the artist to refine the five rooms and add additional assets to fully textured environments.
 
